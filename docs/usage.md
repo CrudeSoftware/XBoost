@@ -38,24 +38,13 @@ On first launch, you'll see a loading screen:
 
 🔄 "Verifying device..."
 
-This is normal. The extension is connecting to its backend server.
+This is normal. Wait a few seconds for the process to complete.
 
 ---
 
 2. Device Verification
 
-XBoost uses a device verification system before showing the main interface. This ensures:
-
-· The extension is running on a compatible environment
-· The backend server is reachable
-· Your session is legitimate
-
-What happens behind the scenes:
-
-1. A hidden tab opens https://crudesoftware.github.io/X-Boost-Page/
-2. That page redirects to a dynamic backend URL
-3. The extension polls the server until it gets a temporary token
-4. The hidden tab closes automatically
+XBoost performs a brief verification step before showing the main interface.
 
 Duration: 5–15 seconds typically.
 
@@ -67,7 +56,7 @@ If it fails:
 
 ../images/pc/08-popup-open.png
 
-⚠️ Note: Some antivirus software or corporate firewalls may block the dynamic redirect. If verification fails repeatedly, temporarily disable your antivirus and try again.
+⚠️ Note: Some antivirus software or corporate firewalls may interfere with this step. If verification fails repeatedly, temporarily disable your antivirus and try again.
 
 ---
 
@@ -370,24 +359,13 @@ En el primer inicio verás una pantalla de carga:
 
 🔄 "Verifying device..."
 
-Esto es normal. La extensión se está conectando a su servidor.
+Esto es normal. Espera unos segundos a que termine el proceso.
 
 ---
 
 2. Verificación del dispositivo
 
-XBoost usa un sistema de verificación de dispositivo antes de mostrar la interfaz principal. Esto asegura:
-
-· Que la extensión corre en un entorno compatible
-· Que el servidor backend es accesible
-· Que tu sesión es legítima
-
-Qué pasa entre bastidores:
-
-1. Se abre una pestaña oculta en https://crudesoftware.github.io/X-Boost-Page/
-2. Esa página redirige a una URL dinámica del backend
-3. La extensión hace polling hasta obtener un token temporal
-4. La pestaña oculta se cierra automáticamente
+XBoost realiza una breve verificación antes de mostrar la interfaz principal.
 
 Duración: 5–15 segundos típicamente.
 
@@ -399,7 +377,7 @@ Si falla:
 
 ../images/pc/08-popup-open.png
 
-⚠️ Nota: Algunos antivirus o firewalls corporativos pueden bloquear la redirección dinámica. Si la verificación falla repetidamente, desactiva temporalmente tu antivirus e intenta de nuevo.
+⚠️ Nota: Algunos antivirus o firewalls corporativos pueden interferir con este paso. Si la verificación falla repetidamente, desactiva temporalmente tu antivirus e intenta de nuevo.
 
 ---
 
